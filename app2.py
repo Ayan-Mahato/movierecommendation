@@ -5,7 +5,7 @@ import streamlit as st
 from io import BytesIO
 
 # GitHub raw file URL (replace with your URL)
-COMPRESSED_FILE_URL = "https://raw.githubusercontent.com/iamarijitdebnath/movierecommender/main/similarity.pkl.gz"
+COMPRESSED_FILE_URL = "https://raw.githubusercontent.com/Ayan-Mahato/movierecommendation/main/similarity.pkl.gz"
 
 def fetch_and_load_compressed_file(url):
     # Fetch the compressed file
